@@ -28,13 +28,14 @@ class Exchange extends Component {
     var { items, isLoaded, longitude, latitude } = this.state
 console.log(this.state)
     if (!isLoaded) {
-      return <div>NOWSERCHIG....</div>
+      return <div><h2>NOWSERCHIG....</h2></div>
     } else {
       return (
         <div>
-          <h1 Style='text-align:center'>{items}!</h1>
-          <h2>'経度'{longitude}</h2>
-          <h2>'緯度'{latitude}</h2>
+          <h1>{items}!</h1>
+          <p>現在の国際宇宙ステーションの位置は</p>
+          <p>緯度:{latitude}</p>
+          <p>経度:{longitude}</p>
         </div>
       )
     }

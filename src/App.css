@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+h1 {
+    text-align:center;
+    font-size:75px;
+    letter-spacing: 3px;
+    padding:30px 0 15px 0;
+    margin:0;
+    color: #010101;
+    background: #eaf3ff;
+    border-bottom: solid 3px #516ab6
+}
+
+p {
+    margin:2px;
+    text-align:center;
+    font-size:45px;
+}
+
+h2 {
+    text-align:center;
+    font-size:90px;
+}

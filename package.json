@@ -2,7 +2,6 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://n20023.github.io/my-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -12,6 +11,7 @@
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
+  "homepage": "http://n20023.github.io/my-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -17,7 +17,7 @@ class Exchange extends Component {
         console.log(json.rates)
         this.setState({
           isLoaded: true,
-          items: json.message,
+          ans: json.message,
           longitude: json.iss_position.longitude,
           latitude: json.iss_position.latitude
         })
@@ -25,14 +25,14 @@ class Exchange extends Component {
   }
 
   render () {
-    var { items, isLoaded, longitude, latitude } = this.state
+    var { ans, isLoaded, longitude, latitude } = this.state
 console.log(this.state)
     if (!isLoaded) {
       return <div><h2>NOWSERCHIG....</h2></div>
     } else {
       return (
         <div>
-          <h1>{items}!</h1>
+          <h1>{ans}!</h1>
           <p>現在の国際宇宙ステーションの位置は</p>
           <p>緯度:{latitude}</p>
           <p>経度:{longitude}</p>
